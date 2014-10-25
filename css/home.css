@@ -1,0 +1,27 @@
+/*公司动态*/
+.home-company-intro{
+	 margin-left:0px !important;
+	  margin-right:0px !important;
+}
+.home-company-intro-img{
+	width: 100% !important;
+	height: 90px !important;
+}
+.home-company-intro p{
+	margin-bottom: 0px !important;
+}
+/*联系我们*/
+.home-contactus-h3{
+	margin-top: 20px !important;
+	margin-bottom: 13px !important;
+}
+.home-contactus-img{
+	width: 100% !important;
+	height: 75px !important;
+}
+.home-h1{
+	font-weight: bold !important;
+}
+.home-stress a{
+	font-weight: bold !important;
+}
