@@ -1,0 +1,416 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home</title>
+    <!-- search -->
+    <link href="css/global-base.css" rel="stylesheet" type="text/css" />
+    <!-- search end -->
+    <link href="css/comm.css" rel='stylesheet' type='text/css' />
+    <link href="css/cssreset.css" rel='stylesheet' type='text/css' />
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="css/module.css" rel='stylesheet' type='text/css' />
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="css/main.css">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- search -->
+    <script type="text/javascript" src="js/vivo-common.js"></script>
+    <!-- search end -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/style.js"></script>
+    <script type="text/javascript">
+            $(document).ready(function() {
+                // alert("hi");
+                $("#detail-search").click(function() {
+                    window.location.href = "detail-search.html"
+                });
+                $('.carousel').carousel({
+                    interval: 2000
+                });
+            });
+        </script>
+</head>
+
+<body>
+    <div class="search-cap "></div>
+    <div class=" container-wrap">
+        <!-- search -->
+        <div id="vivo-airbox"></div>
+        <div id="vivo-wrap">
+            <div id="vivo-head">
+                <div class="vivo-search">
+                    <div class="search-box">
+                        <form>
+                            <input type="text" placeholder="NH系列" name='q' class='data_q' autocomplete="off">
+                            <button>搜索</button>
+                            <a class="close"></a>
+                        </form>
+                        <div class="qk-results">
+                            <ul></ul>
+                            <div class="other-results">
+                                <a href="#">其他搜索结果</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vivo-nav cl">
+                    <div class="search-user">
+                        <a href="#" class="search"> <b></b>
+                        </a>
+                        <a href="" class="user"> <b><img src="images/chinese.png"></b>
+                        </a>
+                        <a href="" class="user">
+                            <b><img src="images/english.jpg"></b>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="vivo-contain"></div>
+        <!-- search end --> </div>
+    <div class="wrapper container">
+        <!----start-header---->
+        <div class="header">
+            <div class="container ">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt=""></a>
+                </div>
+                <div class="menu">
+
+                    <ul class="nav" id="nav">
+                        <li class="current">
+                            <a href="index.html">首页</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="yingyong_ups.html" class="dropdown-toggle" data-toggle="dropdown">
+                                主要应用
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu menu-top menu-second">
+                                <li>
+                                    <a href="yingyong_ups.html">高功率电池UPS应用</a>
+                                </li>
+                                <li>
+                                    <a href="yingyong_dongli.html">深循环电池动力应用</a>
+                                </li>
+                                <li>
+                                    <a href="yingyong_chuneng.html">胶体电池光伏储能应用</a>
+                                </li>
+                                <li>
+                                    <a href="yingyong_rests.html">其他应用</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="products_ns.html" class="dropdown-toggle" data-toggle="dropdown">
+                                产品中心
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu menu-top menu-second">
+                                <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#">通用电池</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-submenu">
+                                            <a href="#">AGM电池</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="#">NS小型密封系列</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">NM中型密封系列</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">NL大型密封系列</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">NH高功率系列</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">NF前端子系列</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown-submenu">
+                                            <a href="#">胶体电池</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="#">NG胶体系列</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#">动力电池</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a tabindex="-1" href="#">EV深循环系列</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="jishu_youshi.html" class="dropdown-toggle" data-toggle="dropdown">
+                                技术支持
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu menu-top menu-second">
+                                <li>
+                                    <a href="jishu_youshi.html">技术优势</a>
+                                </li>
+                                <li>
+                                    <a href="jishu_yanfa.html">研发实力</a>
+                                </li>
+                                <li>
+                                    <a href="jishu_pinzhi.html">品质管理</a>
+                                </li>
+                                <li>
+                                    <a href="jishu_zhengshu.html">认证和荣誉</a>
+                                </li>
+                                <li>
+                                    <a href="jishu_wenjian.html">文件下载</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="about_intro.html" class="dropdown-toggle" data-toggle="dropdown">
+                                关于格能
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu menu-top menu-second">
+                                <li>
+                                    <a href="about_intro.html">公司概况</a>
+                                </li>
+                                <li>
+                                    <a href="about_zuzhi.html">组织架构</a>
+                                </li>
+                                <li>
+                                    <a href="about_jingying.html">经营理念</a>
+                                </li>
+                                <li>
+                                    <a href="about_news.html">公司动态</a>
+                                </li>
+                                <li>
+                                    <a href="about_xiaoshou.html">销售网络</a>
+                                </li>
+                                <li>
+                                    <a href="about_contactus.html">联系方式</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <div class="clearfix"></div>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+                <!----//End-top-nav----> </div>
+        </div>
+        <!---- //End-header---->
+
+        <div class="container " id="main">
+
+            <div class="row mr10 ml10">
+                 <!-- menu -->
+                <div class="col-xs-3">
+                    <h4 class="home-main-h3 page-header">技术支持</h4>
+                    <ul class="genergy-left-menu">
+                          <li><a class="crred"  href="#"><i class="fa crf15 pr5 fa-arrow-right"></i>技术优势</a></li>
+                          <li><a href="#"><i class="fa crf15 pr5 fa-arrow-right"></i>研发实力</a></li>
+                          <li><a  href="#"><i class="fa crf15 pr5 fa-arrow-right"></i>品质管理</a></li>
+                          <li><a href="#"><i class="fa crf15 pr5 fa-arrow-right"></i>认证荣誉</a></li>
+                          <li><a href="#"><i class="fa crf15 pr5 fa-arrow-right"></i>文件下载</a></li>
+                    </ul>
+                    
+                </div>
+                <!-- menu end --> 
+                <!-- right -->
+                <div class="col-xs-9 mb50">
+                    <div class="apply-header-img">
+                        <img class="w-width" style="clear:both" src="images/1.jpg">
+                    </div>
+                    <!-- apply -->
+                    <div>
+                        <h2 class="home-main-h3 apply-absolute-titile">技术优势</h2>
+                       <p>格能长期致力于先进生产技术的研究与实践，我们的技术优势有</p>
+                        <h4 class="apply-absolute-titile-little mt20">1、特制的动力电池配方及生产工艺技术</h4>
+                        <p>
+                          针对环保型合金的深循环电池，历经我们十多年的研究和应用，研发出一套实践验证了的能够满足市场需要的深循环电池用配方和生产工艺技术。
+                        </p>
+                        <h4 class="apply-absolute-titile-little mt20">2、内化成技术</h4>
+                         <p>
+                            格能的深循环电池采用环保无镉化技术，不仅解决了电池深放电循环寿命问题，而且符合当今环保的发展趋势。生产过程采用内化成工艺技术，简化了生产过程，减少了生产工艺环节，电池的自放电率大大降低，从而保证了电池的存放更持久。同时由于内化成技术的采用，也延长了电池的深循环使用寿命，80%DOD寿命比常规电池多15-30%，达到500次以上，50%DOD达到1000次以上。特别适合应用在电动车、清扫车等动力电源的场合。该技术使得格能公司的电池从生产到使用再到回收都做到了少污染，低耗能，真正做到了对环境的保护。
+                            </p>
+                        <div class="row mt20">
+                          <div class="col-xs-6">
+                            <div class="thumbnail genergy-technology-thumbnail">
+                                <div class="genergy-technology-imgs">
+                                    <img class="genergy-technology-img" src="images/jishu_1.jpg" alt="" title="" />
+                                </div>
+                              <div class="caption">
+                                <p class="text-center">内化成电池车间的冷却水槽</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xs-6">
+                            <div class="thumbnail genergy-technology-thumbnail">
+                                <div class="genergy-technology-imgs">
+                                 <img class="genergy-technology-img" src="images/jishu_2.jpg" alt="" title="" />
+                                </div>
+                              <div class="caption">
+                                <p class="text-center">内化成车间的充电设备</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <h4 class="apply-absolute-titile-little mt20">3、纳米胶体技术</h4>
+                         <p>
+                           格能公司的纳米胶体电解液技术，已成功应用于各系列蓄电池。采用纳米级的二氧化硅以特殊的方式同稀硫酸溶液混合后，再以特殊的方式加入到电池内部，经过内化成充电技术完成到成品的过程。电池在使用中有如下优点：充电电压低；充电温升低；失水少；耐高温，可在50℃环境下长期工作；耐低温，可在-30℃环境下达到放出容量的70%；电解液上下均匀；可以任意方向安装使用，无酸液漏出的风险；电池使用寿命长。
+                          </p>
+                            <h4 class="apply-absolute-titile-little mt20">4、铸焊技术</h4>
+                             <p>
+                              采用先进的铸焊设备和技术，一次铸出汇流排和极柱，保证了极柱内部良好的结构及跨桥焊接的厚度和牢固性，电池一致性大大提高。
+                                </p>
+                                 <h4 class="apply-absolute-titile-little mt20">5、逐片极板称量技术</h4>
+                             <p>
+                              采用先进的铸焊设备和技术，一次铸出汇流排和极柱，保证了极柱内部良好的结构及跨桥焊接的厚度和牢固性，电池一致性大大提高。
+                                </p>
+                    </div>
+                    
+                     
+                           <div class="row mt20">
+                            <div class="col-xs-12 page-list-bg p10 ">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <a href="#" class="thumbnail">
+                                            <img class="home-products-img" src="images/2.jpg" alt="" title="" />
+                                        </a>
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <a href="#" class="thumbnail">
+                                            <img class="home-products-img" src="images/2.jpg" alt="" title="" />
+                                        </a>
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <a href="#" class="thumbnail">
+                                            <img class="home-products-img" src="images/2.jpg" alt="" title="" />
+                                        </a>
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <a href="#" class="thumbnail">
+                                            <img class="home-products-img" src="images/2.jpg" alt="" title="" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+           
+            </div>
+            <!-- row end -->
+            
+
+        </div>
+        <!-- main end --> </div>
+    <!-- footer 1 -->
+    <div class="home-friends-bg mwm mt50">
+        <!-- friends-links -->
+        <div class=" container">
+            <div class=" friends-links">
+                <dl>
+                    <dt class="cr333 mb10 f14">主要领域</dt>
+                    <dd>
+                        <a class="cr999 f12 p5" href="yingyong_ups.html">高功率电池UPS应用</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="yingyong_dongli.html">深循环电池动力应用</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="yingyong_chuneng.html">胶体电池光伏储能应用</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="cr333 f14 mb10">产品中心</dt>
+                    <dd>
+                        <a class="cr999 f12 p5" href="products_ns.html">NS小型密封系列</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="products_nm.html">NM中型密封系列</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="products_nl.html">NL大型密封系列</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="products_nh.html">NH高功率系列</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="products_nf.html">NF前端子系列</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="products_ng.html">NG胶体系列</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="products_ev.html">EV深循环系列</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="cr333 f14 mb10">技术支持</dt>
+                    <dd>
+                        <a class="cr999 f12 p5" href="jishu_youshi.html">技术优势</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="jishu_yanfa.html">研发实力</a>
+                    </dd>
+                    <dd>
+                        <a  class="cr999 f12 p5" href="jishu_pinzhi.html">品质管理</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="jishu_zhengshu.html">认证和荣誉</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="jishu_wenjian.html">文件下载</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="cr333 f14 mb10">关于格能</dt>
+                    <dd>
+                        <a class="cr999 f12 p5" href="about_intro.html">公司概况</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="about_zuzhi.html">组织构架</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="about_jingying.html">经营理念</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="about_news.html">公司动态</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="about_xiaoshou.html">销售网络</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="about_contactus.html">联系方式</a>
+                    </dd>
+                </dl>
+
+            </div>
+        </div>
+        <!-- row end -->
+        <!-- friends-links end --> </div>
+    <!-- footer start -->
+    <div class=" mwm p30 footer-bg">
+        <div class="container">
+            <p>Copyright © - 2014 - 格能电池有限公司版权所有</p>
+        </div>
+    </div>
+    <!-- footer end -->
+    <!-- wrapper -->
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+
+</html>
