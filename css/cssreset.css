@@ -322,7 +322,7 @@ color: #449d44;
 	color: #eee;
 }
 .crred{
-	color: #ff0000;
+	color: #ff0000 !important;
 }
 .crfff{
 	color: #fff;
@@ -344,4 +344,7 @@ color:#9ED034;
 }
 .cr5c{
 	color: #5cb85c
+}
+.crf15 {
+color: #F15A23;
 }
