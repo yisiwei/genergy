@@ -230,7 +230,7 @@ legend {
 .mb150{margin-bottom: 150px}
 .mb180{margin-bottom: 180px}
 .ml5{margin-left:5px}
-.ml10{margin-left:10px}
+.ml10{margin-left:10px !important}
 .ml15{margin-left:15px}
 .ml20{margin-left:20px}
 .ml30{margin-left:30px}
@@ -238,7 +238,7 @@ legend {
 .ml100{margin-left:100px}
 .ml150{margin-left: 150px}
 .mr5{margin-right:5px}
-.mr10{margin-right:10px}
+.mr10{margin-right:10px !important}
 .mr15{margin-right:15px}
 .mr20{margin-right:20px}
 .mr30{margin-right:30px}
@@ -322,7 +322,7 @@ color: #449d44;
 	color: #eee;
 }
 .crred{
-	color: #ff0000;
+	color: #ff0000 !important;
 }
 .crfff{
 	color: #fff;
@@ -344,4 +344,7 @@ color:#9ED034;
 }
 .cr5c{
 	color: #5cb85c
+}
+.crf15 {
+color: #F15A23;
 }
