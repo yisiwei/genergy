@@ -1,34 +1,44 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE HTML>
+<html>
+
 <head>
-<meta name="keywords" content="Quest, Photography, Photo Images, Responsive, Business, Corporate, Gallery, Notebook" />
-<meta name="description" content="Quest" />
-<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
- <!-- search -->
-     <link href="css/global-base.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home</title>
+    <!-- search -->
+    <link href="css/global-base.css" rel="stylesheet" type="text/css" />
     <!-- search end -->
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <link href="css/test.css" rel="stylesheet" type="text/css" />
-    <link href="css/home.css" rel="stylesheet" type="text/css" />
-    <link href="css/comm.css" rel="stylesheet" type="text/css" />
-      <link href="css/module.css" rel="stylesheet" type="text/css" />
-    <link href="js/superfish.css" rel="stylesheet" type="text/css"
-        media="screen" />
-    <link href="js/flexslider.css" rel="stylesheet" type="text/css"
-        media="screen" />
-    <!-- font -->
-     <link href="css/font-awesome.min.css" rel="stylesheet"/>
-    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <link href="css/comm.css" rel='stylesheet' type='text/css' />
+    <link href="css/cssreset.css" rel='stylesheet' type='text/css' />
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="css/module.css" rel='stylesheet' type='text/css' />
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="css/main.css">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
     <!-- search -->
     <script type="text/javascript" src="js/vivo-common.js"></script>
     <!-- search end -->
-    <script type="text/javascript" src="js/nav-small.js"></script>
-<title>Quest</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/style.js"></script>
+    <script type="text/javascript">
+            $(document).ready(function() {
+                // alert("hi");
+                $("#detail-search").click(function() {
+                    window.location.href = "detail-search.html"
+                });
+                $('.carousel').carousel({
+                    interval: 2000
+                });
+            });
+        </script>
+</head>
+
 <body>
-<div class="container-wrap" id="cap"></div>
- <div class="products container-wrap">
+    <div class="search-cap "></div>
+    <div class=" container-wrap">
         <!-- search -->
         <div id="vivo-airbox"></div>
         <div id="vivo-wrap">
@@ -52,468 +62,328 @@
                     <div class="search-user">
                         <a href="#" class="search"> <b></b>
                         </a>
-                        <a href="" class="user"><b><img src="img/chinese.png"></b></a>
-                         <a href="" class="user"><b><img src="img/english.jpg"></b></a>
+                        <a href="" class="user"> <b><img src="images/chinese.png"></b>
+                        </a>
+                        <a href="" class="user">
+                            <b><img src="images/english.jpg"></b>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
         <div id="vivo-contain"></div>
-        <!-- search end --> 
-    </div>
-<!--HEADER-->
-        <div id="header" class="clear">
-            <div class="header-wrapper">
-                <!--LOGO-->
+        <!-- search end --> </div>
+    <div class="wrapper container">
+        <!----start-header---->
+        <div class="header">
+            <div class="container ">
                 <div class="logo">
-                    <h1>
-                        <a href="index.html">
-                            <img src="img/logo.png" alt="" title="" />
-                        </a>
-                    </h1>
+                    <a href="index.html">
+                        <img src="images/logo.png" alt=""></a>
                 </div>
-                <!--MENU-->
-                <nav id="main-nav-menu">
-                    <ul class="sf-menu">
-                        <li class="active">
-                            <a href="index.html">
-                                主页
-                            </a>
+                <div class="menu">
+
+                    <ul class="nav" id="nav">
+                        <li class="current">
+                            <a href="index.html">首页</a>
                         </li>
-                        <li>
-                            <a href="yingyong_ups.html">
+                        <li class="dropdown">
+                            <a href="yingyong_ups.html" class="dropdown-toggle" data-toggle="dropdown">
                                 主要应用
+                                <b class="caret"></b>
                             </a>
-                            <ul>
+                            <ul class="dropdown-menu menu-top">
                                 <li>
-                                    <a href="yingyong_ups.html">
-                                        高功率电池UPS应用
-                                    </a>
+                                    <a href="yingyong_ups.html">高功率电池UPS应用</a>
                                 </li>
                                 <li>
-                                    <a href="yingyong_dongli.html">
-                                        深循环电池动力应用
-                                    </a>
+                                    <a href="yingyong_dongli.html">深循环电池动力应用</a>
                                 </li>
                                 <li>
-                                    <a href="yingyong_chuneng.html">
-                                        胶体电池光伏储能应用
-                                    </a>
+                                    <a href="yingyong_chuneng.html">胶体电池光伏储能应用</a>
                                 </li>
                                 <li>
-                                    <a href="yingyong_rests.html">
-                                        其他应用
-                                    </a>
+                                    <a href="yingyong_rests.html">其他应用</a>
                                 </li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="#">
+                        <li class="dropdown">
+                            <a href="products_ns.html" class="dropdown-toggle" data-toggle="dropdown">
                                 产品中心
+                                <b class="caret"></b>
                             </a>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        通用电池
-                                    </a>
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                AGM电池
-                                            </a>
-                                            <ul>
+                            <ul class="dropdown-menu menu-top">
+                                <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#">通用电池</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-submenu">
+                                            <a href="#">AGM电池</a>
+                                            <ul class="dropdown-menu">
                                                 <li>
-                                                    <a href="#">
-                                                        NS小型密封系列
-                                                    </a>
+                                                    <a href="#">NS小型密封系列</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
-                                                        NM中型密封系列
-                                                    </a>
+                                                    <a href="#">NM中型密封系列</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
-                                                        NL大型密封系列
-                                                    </a>
+                                                    <a href="#">NL大型密封系列</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
-                                                        NH高功率系列
-                                                    </a>
+                                                    <a href="#">NH高功率系列</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
-                                                        NF前端子系列
-                                                    </a>
+                                                    <a href="#">NF前端子系列</a>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li>
-                                            <a href="#">
-                                             胶体电池
-                                            </a>
-                                             <ul>
+                                        <li class="dropdown-submenu">
+                                            <a href="#">胶体电池</a>
+                                            <ul class="dropdown-menu">
                                                 <li>
-                                                    <a href="#">
-                                                       NG胶体系列
-                                                    </a>
+                                                    <a href="#">NG胶体系列</a>
                                                 </li>
                                             </ul>
                                         </li>
                                     </ul>
                                 </li>
-                                <li>
-                                    <a href="#">
-                                       动力电池
-                                    </a>
-                                    <ul>
+                                <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#">动力电池</a>
+                                    <ul class="dropdown-menu">
                                         <li>
-                                            <a href="#">
-                                                EV深循环系列
-                                            </a>
+                                            <a tabindex="-1" href="#">EV深循环系列</a>
                                         </li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="#">
+                        <li class="dropdown">
+                            <a href="jishu_youshi.html" class="dropdown-toggle" data-toggle="dropdown">
                                 技术支持
+                                <b class="caret"></b>
                             </a>
-                            <ul>
+                            <ul class="dropdown-menu menu-top">
                                 <li>
-                                    <a href="jishu_youshi.html">
-                                        技术优势
-                                    </a>
+                                    <a href="jishu_youshi.html">技术优势</a>
                                 </li>
                                 <li>
-                                    <a href="jishu_yanfa.html">
-                                      研发实力
-                                    </a>
+                                    <a href="jishu_yanfa.html">研发实力</a>
                                 </li>
                                 <li>
-                                    <a href="jishu_pinzhi.html">
-                                       品质管理
-                                    </a>
+                                    <a href="jishu_pinzhi.html">品质管理</a>
                                 </li>
                                 <li>
-                                    <a href="jishu_zhengshu.html">
-                                        认证和荣誉
-                                    </a>
+                                    <a href="jishu_zhengshu.html">认证和荣誉</a>
                                 </li>
                                 <li>
-                                    <a href="jishu_wenjian.html">
-                                        文件下载
-                                    </a>
+                                    <a href="jishu_wenjian.html">文件下载</a>
                                 </li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="#">
-                               关于格能
+                        <li class="dropdown">
+                            <a href="about_intro.html" class="dropdown-toggle" data-toggle="dropdown">
+                                关于格能
+                                <b class="caret"></b>
                             </a>
-                            <ul>
+                            <ul class="dropdown-menu menu-top">
                                 <li>
-                                    <a href="about_intro.html">
-                                     公司概况
-                                    </a>
+                                    <a href="about_intro.html">公司概况</a>
                                 </li>
                                 <li>
-                                    <a href="about_zuzhi.html">
-                                       组织架构
-                                    </a>
+                                    <a href="about_zuzhi.html">组织架构</a>
                                 </li>
                                 <li>
-                                    <a href="about_jingying.html">
-                                       经营理念
-                                    </a>
+                                    <a href="about_jingying.html">经营理念</a>
                                 </li>
                                 <li>
-                                    <a href="about_news.html">
-                                        公司动态
-                                    </a>
+                                    <a href="about_news.html">公司动态</a>
                                 </li>
-                                 <li>
-                                    <a href="about_xiaoshou.html">
-                                      销售网络
-                                    </a>
+                                <li>
+                                    <a href="about_xiaoshou.html">销售网络</a>
                                 </li>
-                                 <li>
-                                    <a href="about_contactus.html">
-                                      联系方式
-                                    </a>
+                                <li>
+                                    <a href="about_contactus.html">联系方式</a>
                                 </li>
                             </ul>
                         </li>
+                        <div class="clearfix"></div>
                     </ul>
-
-                </nav>
-                <!-- end menu -->
-                <select id="responsive-main-nav-menu" onchange="javascript:window.location.replace(this.value);">
-                </select>
-            </div>
-            <div class="clear">
-            </div>
+                </div>
+                <div class="clearfix"></div>
+                <!----//End-top-nav----> </div>
         </div>
-<!--SITE CONTAINER-->
-<div id="container">
-  <!--SITE CONTENTS-->
-  <div id="contents" class="clear">
-    <!--LEFT SIDEBAR-->
-    <div class="left sidebar-left">
-      <!--CATEGORIES-->
-      <div class="categories">
-        <h5>主要应用 <span class="arrow">&nbsp;</span></h5>
-        <ul class="clear">
-          <li><a href="#">高功率电池UPS应用</a></li>
-          <li><a  href="#">深循环电池动力应用</a></li>
-          <li><a class="crred" href="#">胶体电池光伏储能应用</a></li>
-          <li><a href="#">其他应用</a></li>
-        </ul>
-      </div>
-    </div>
-    <!--MAIN CONTENT-->
-    <div class="right main-content-left">
-       <!--NOTIFY-->
-      <div class="br-bot">
-        <div class="notify clear">
-          <img class="w-width" src="img/1.jpg">
-         <!--  <h2>高功率电池UPS应用</h2>
-          <span><a href="#" class="btn">Purchase Now</a></span> </div> -->
-      </div>
-      <!--ABOUT-->
-      <div  class="welcome module-apply-right-welcom">
-        <h1 class="module-apply-right-h1">胶体电池光伏储能应用</h1>
-        <h5 class="module-apply-right-h5">应用背景</h5>
-        <p>太阳能系统、风力发电系统、风光互补系统，由于节能、环保已得到了广泛的应用。在这些发电系统中，能够储存电能的电池是能够持续供电的重要保障。在光伏电站使用环境中，光照条件好时(白天)，太阳能电池组件接收太阳光，输出电能，一部分直流和交流负载工作，另一部分供给蓄电池充电;光照条件不好时(夜晚或阴雨天)，太阳能电池组件无法工作，蓄电池组供电，供给直流或交流负载，蓄电池是就长期处于这种充放电循环状态。 </p>
-      <ul>
-        <h6 class="module-apply-right-h6">这种应用状态有四大特点：</h6>
-        <li>1、 充电率非常小, 由于成本，位置空间等问题，太阳电池投入数量会受到很大的限制，为了保证电力系统的正常使用，往往提供给蓄电池的充电电力变得十分有限。</li>
-         <li>2、 放电率非常小,太阳能系统设计时需要考虑到最大负载容量，最长后备时间，配置的蓄电池容量较大，而实际使用过程中负载相对设计负载小得多，蓄电池放电率通常为C20～C240,或者更小。</li>
-          <li>3、 由于受到自然资源的限制,蓄电池只有在有日照时才能充电:即充电时间受到限制。</li>
-           <li>4、不能按给定的充电规律对蓄电池进行充电。正是由于光伏系统中的蓄电池的工作条件的特殊性，用普通密封铅酸蓄电池会有很多缺陷，充不足电，寿命短是很多用户反映最强烈的问题</li>
-      </ul>
-      </div>
-      <!--NOTIFY-->
-      <div class="br-bot">
-         <h5 class="module-apply-right-h5">格能的解决方案</h5>
-        <div class="notify clear">
-         
-          <p class="clear-both">
-            公司致力于为客户提供更经济，性能更可靠的电池产品与解决方案。根据此类电池的的实际应用特点，通过持续改进现有的电池技术，，我们研发出了性能优异的光伏储能电池NG系列，此系列采用新型深放电铅钙合金板栅，配合长寿命活性物质配方及纳米胶体技术，让电池使用寿命达10年，并且适应严苛的户外环境。
-          </p>
-          <ul>
-        <h6 class="module-apply-right-h6">这种应用状态有四大特点：</h6>
-        <li>1、 设计寿命10年(20℃)</li>
-         <li>2、 使用环境温度范围宽：-30～60℃</li>
-          <li>3、  纳米胶体电解液消除了酸液分层，减少了水分损失，延长了循环寿命</li>
-           <li>4、 低温充电接受能力佳</li>
-           <li>5、 深放电后补充电性能强，即使未及时补充也能恢复到不低于98%的初始容量</li>
-           <li>6、 低自放电率和较长的贮存期（20℃下保存期为9个月）</li>
-           <li>7、 电池制造控制严格，一致性非常高，特别适合电池组合应用</li>
-      </ul>
-           </div>
-      </div>
-      <!--TEAM-->
-      <div class="team">
-        <!-- 产品中心EG系列 -->
-        <ul class="clear">
-          <li> <img src="img/team/mark.jpg" alt="" title="" />
-          </li>
-          <li> <img src="img/team/tina.jpg" alt="" title="" />
-          </li>
-          <li> <img src="img/team/james.jpg" alt="" title="" />
-          </li>
-          <li class="last"> <img src="img/team/jessica.jpg" alt="" title="" />
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-     <!--Footer-->
-    <div id="footer" class="clear">
-                <!--BOTTOM COLUMNS-->
-           <div id="footer-columns" class="clear">
-                <div class="footer-wrapper">
-                    <!--TAGS-->
-                    <div class="archive">
-                        <h5>
-                            主要领域
-                        </h5>
-                          <ul>
-                            <li>
-                                <a href="yingyong_ups.html">
-                                   高功率电池UPS应用
-                                </a>
-                               
-                            </li>
-                            <li>
-                                <a href="yingyong_dongli.html">
-                                  深循环电池动力应用
-                                </a>
-                                
-                            </li>
-                            <li>
-                                <a href="yingyong_chuneng.html">
-                                   胶体电池光伏储能应用
-                                </a>
-                                
-                            </li>
-                         
-                          
-                        
-                        </ul>
+        <!---- //End-header---->
+
+        <div class="container " id="main">
+
+            <div class="row">
+                 <!-- menu -->
+                <div class="col-xs-3">
+                    <h4 class="home-main-h3 page-header">主要应用</h4>
+                    <ul>
+                          <li><a href="#"><i class="fa crf15 pr5 fa-arrow-right"></i>高功率电池UPS应用</a></li>
+                          <li><a href="#"><i class="fa crf15 pr5 fa-arrow-right"></i>深循环电池动力应用</a></li>
+                          <li><a class="crred"  href="#"><i class="fa crf15 pr5 fa-arrow-right"></i>胶体电池光伏储能应用</a></li>
+                          <li><a href="#"><i class="fa crf15 pr5 fa-arrow-right"></i>其他应用</a></li>
+                    </ul>
+                    
+                </div>
+                <!-- menu end --> 
+                <!-- right -->
+                <div class="col-xs-9">
+                    <div class="apply-header-img">
+                        <img class="w-width" style="clear:both" src="images/1.jpg">
                     </div>
-                    <!--ARCHIVES-->
-                    <div class="archive">
-                        <h5>
-                           产品中心
-                        </h5>
-                        <ul>
-                            <li>
-                                <a href="products_ns.html">
-                                 NS小型密封系列
-                                </a>
-                                
-                            </li>
-                            <li>
-                                <a href="products_nm.html">
-                                 NM中型密封系列
-                                </a>
-                               
-                            </li>
-                            <li>
-                                <a href="products_nl.html">
-                                    NL大型密封系列
-                                </a>
-                              
-                            </li>
-                            <li>
-                                <a href="products_nh.html">
-                                    NH高功率系列
-                                </a>
-                             
-                            </li>
-                            <li>
-                                <a href="products_nf.html">
-                                  NF前端子系列
-                                </a>
-                              
-                            </li>
-                            <li>
-                                <a href="products_ng.html">
-                                   NG胶体系列
-                                </a>
-                                
-                            </li>
-                             <li>
-                                <a href="products_ev.html">
-                                   EV深循环系列
-                                </a>
-                                
-                            </li>
-                        </ul>
+                    <!-- apply -->
+                    <div>
+                        <h2 class="home-main-h3 apply-absolute-titile">胶体电池光伏储能应用</h2>
+                        <h4 class="apply-absolute-titile-little">应用背景</h4>
+                        <p> 太阳能系统、风力发电系统、风光互补系统，由于节能、环保已得到了广泛的应用。在这些发电系统中，能够储存电能的电池是能够持续供电的重要保障。在光伏电站使用环境中，光照条件好时(白天)，太阳能电池组件接收太阳光，输出电能，一部分直流和交流负载工作，另一部分供给蓄电池充电;光照条件不好时(夜晚或阴雨天)，太阳能电池组件无法工作，蓄电池组供电，供给直流或交流负载，蓄电池是就长期处于这种充放电循环状态。</p>
+                        <h6>这种应用状态有四大特点：</h6>
+                        <p>动力电池必须要满足以下条件：</p>
+                        <p>1、 充电率非常小, 由于成本，位置空间等问题，太阳电池投入数量会受到很大的限制，为了保证电力系统的正常使用，往往提供给蓄电池的充电电力变得十分有限。</p>
+                        <p>2、 放电率非常小,太阳能系统设计时需要考虑到最大负载容量，最长后备时间，配置的蓄电池容量较大，而实际使用过程中负载相对设计负载小得多，蓄电池放电率通常为C20～C240,或者更小。</p>
+                        <p>3、 由于受到自然资源的限制,蓄电池只有在有日照时才能充电:即充电时间受到限制。</p>
+                        <p>4、不能按给定的充电规律对蓄电池进行充电。正是由于光伏系统中的蓄电池的工作条件的特殊性，用普通密封铅酸蓄电池会有很多缺陷，充不足电，寿命短是很多用户反映最强烈的问题</p>
                     </div>
-                    <!--TWITTER FEED-->
-                    <div class="archive">
-                        <h5>
-                            技术支持
-                        </h5>
-                        <ul>
-                            <li>
-                                <a href="jishu_youshi.html">
-                                技术优势
-                                </a>
-                                
-                            </li>
-                            <li>
-                                <a href="jishu_yanfa.html">
-                                 研发实力
-                                </a>
-                               
-                            </li>
-                            <li>
-                                <a href="jishu_pinzhi.html">
-                                    品质管理
-                                </a>
-                              
-                            </li>
-                            <li>
-                                <a href="jishu_zhengshu.html">
-                                    认证和荣誉
-                                </a>
-                             
-                            </li>
-                            <li>
-                                <a href="jishu_wenjian.html">
-                                 文件下载
-                                </a>
-                              
-                            </li>
-                          
-                        </ul>
-                      
+                    <!-- solution -->
+                    <div>
+                      <h4 class="apply-absolute-titile-little mt20">格能解决方案</h4>
+                      <div class="apply-absolute">
+                           <p>
+                            公司致力于为客户提供更经济，性能更可靠的电池产品与解决方案。根据此类电池的的实际应用特点，通过持续改进现有的电池技术，，我们研发出了性能优异的光伏储能电池NG系列，此系列采用新型深放电铅钙合金板栅，配合长寿命活性物质配方及纳米胶体技术，让电池使用寿命达10年，并且适应严苛的户外环境。
+                          </p>
+                      </div>
                     </div>
-                    <!--ABOUT-->
-                    <div class="archive">
-                        <h5>
-                         关于格能
-                        </h5>
-                        <ul>
-                            <li>
-                                <a href="about_intro.html">
-                                公司概况
-                                </a>
-                                
-                            </li>
-                            <li>
-                                <a href="about_zuzhi.html">
-                                 组织构架
-                                </a>
-                               
-                            </li>
-                            <li>
-                                <a href="about_jingying.html">
-                                   经营理念
-                                </a>
-                              
-                            </li>
-                            <li>
-                                <a href="about_news.html">
-                                  公司动态
-                                </a>
-                             
-                            </li>
-                            <li>
-                                <a href="about_xiaoshou.html">
-                                 销售网络
-                                </a>
-                              
-                            </li>
-                            <li>
-                                <a href="about_contactus.html">
-                                联系方式
-                                </a>
-                              
-                            </li>
-                          
-                        </ul>
+                  
+                     
+                           <div class="row">
+                        <div class="col-xs-12 page-list-bg p10 ">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <a href="#" class="thumbnail">
+                                        <img class="home-products-img" src="images/2.jpg" alt="" title="" />
+                                    </a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#" class="thumbnail">
+                                        <img class="home-products-img" src="images/2.jpg" alt="" title="" />
+                                    </a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#" class="thumbnail">
+                                        <img class="home-products-img" src="images/2.jpg" alt="" title="" />
+                                    </a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#" class="thumbnail">
+                                        <img class="home-products-img" src="images/2.jpg" alt="" title="" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+           
             </div>
-            <!--FOOTER-->
-        <div id="footer-bot">
-            <div class="footer-wrapper">
-                <label>Copyright © - 2014 - 格能电池有限公司版权所有</label>
+            <!-- row end -->
+            
+
+        </div>
+        <!-- main end --> </div>
+    <!-- footer 1 -->
+    <div class="home-friends-bg mwm mt50">
+        <!-- friends-links -->
+        <div class=" container">
+            <div class=" friends-links">
+                <dl>
+                    <dt class="cr333 mb10 f14">主要领域</dt>
+                    <dd>
+                        <a class="cr999 f12 p5" href="yingyong_ups.html">高功率电池UPS应用</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="yingyong_dongli.html">深循环电池动力应用</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="yingyong_chuneng.html">胶体电池光伏储能应用</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="cr333 f14 mb10">产品中心</dt>
+                    <dd>
+                        <a class="cr999 f12 p5" href="products_ns.html">NS小型密封系列</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="products_nm.html">NM中型密封系列</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="products_nl.html">NL大型密封系列</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="products_nh.html">NH高功率系列</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="products_nf.html">NF前端子系列</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="products_ng.html">NG胶体系列</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="products_ev.html">EV深循环系列</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="cr333 f14 mb10">技术支持</dt>
+                    <dd>
+                        <a class="cr999 f12 p5" href="jishu_youshi.html">技术优势</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="jishu_yanfa.html">研发实力</a>
+                    </dd>
+                    <dd>
+                        <a  class="cr999 f12 p5" href="jishu_pinzhi.html">品质管理</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="jishu_zhengshu.html">认证和荣誉</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="jishu_wenjian.html">文件下载</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="cr333 f14 mb10">关于格能</dt>
+                    <dd>
+                        <a class="cr999 f12 p5" href="about_intro.html">公司概况</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="about_zuzhi.html">组织构架</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="about_jingying.html">经营理念</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="about_news.html">公司动态</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="about_xiaoshou.html">销售网络</a>
+                    </dd>
+                    <dd>
+                        <a class="cr999 f12 p5" href="about_contactus.html">联系方式</a>
+                    </dd>
+                </dl>
+
             </div>
         </div>
+        <!-- row end -->
+        <!-- friends-links end --> </div>
+    <!-- footer start -->
+    <div class=" mwm p30 footer-bg">
+        <div class="container">
+            <p>Copyright © - 2014 - 格能电池有限公司版权所有</p>
+        </div>
     </div>
-    <a href="#" id="toTop">&uarr;</a>
+    <!-- footer end -->
+    <!-- wrapper -->
+    <script type="text/javascript" src="js/custom.js"></script>
 </body>
+
 </html>
-
-
-
