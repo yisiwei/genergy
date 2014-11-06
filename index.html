@@ -19,8 +19,8 @@
         <link href="css/style.css" rel='stylesheet' type='text/css' />
         <link rel="stylesheet" href="css/main.css">
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="js/jquery.min.js">
-        </script>
+      
+        <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
         <!-- search -->
         <script type="text/javascript" src="js/vivo-common.js">
         </script>
@@ -29,12 +29,10 @@
         </script>
         <script src="js/style.js">
         </script>
+        <script type="text/javascript" src="js/scrolltop.js"></script>
         <script type="text/javascript">
             $(document).ready(function() {
                 // alert("hi");
-                $("#detail-search").click(function() {
-                    window.location.href = "detail-search.html"
-                });
                 $('.carousel').carousel({
                     interval: 2000
                 });
@@ -153,7 +151,7 @@
                                         <a tabindex="-1" href="#">
                                             通用电池
                                         </a>
-                                        <ul class="dropdown-menu ">
+                                        <ul class="dropdown-menu menu-second">
                                             <li class="dropdown-submenu">
                                                 <a href="#">
                                                     AGM电池
@@ -324,69 +322,62 @@
                             </div>
                         </div>
                         <!-- 轮播（Carousel）导航 -->
-                        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                        <a class="carousel-control left " href="#myCarousel" data-slide="prev">
+                            <!-- <img src="images/left.png"> -->
                         </a>
-                        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                        <a class="carousel-control right " href="#myCarousel" data-slide="next">
+                            <!-- <img src="images/right.png"> -->
                         </a>
                     </div>
                 </div>
                 <!-- banner end -->
                 <div class="row">
                     <!-- left -->
-                    <div class="col-xs-9">
-                            <h3 class="home-main-h3">格能出众电池系列</h3>
-                       <div class="row">
-                      <div class="col-xs-4">
-                        <div class="thumbnail ">
-                          <div class="caption home-main-font">
-                            <h4 class="crred">AGM高功率NH系列</h4>
-                            <small>
-                                应用于： <b>不间断电源设备</b>
-                            </small>
-                            <p>NH系列采用了铅钙合金板栅，配合高倍率和膏配方及工艺。该系列高功率放电性能优异，能持续稳定大功率放电15分钟，非常适合各种应急电源UPS、EPS等场合。</p>
-                          </div>
-                          <a class="com-rposition" href="">
-                             <img src="images/img-2.jpg" alt="" title="" />
-                             <span class="home-main-products-span">了解我们</span>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-xs-4">
-                        <div class="thumbnail">
-                          <div class="caption home-main-font">
-                            <h4 class="crred">动力深循环EV系列</h4>
-                            <small>
-                                应用于：
-                                <b>高尔夫球车，清扫车等</b>
-                            </small>
-                            <p>EV系列采用了高锡低钙板栅合金，配合动力和膏配方及工艺性能优异，其深循环性能比普通产品高70% 以上。非常适合各种深度循环使用的场合...</p>
-                          </div>
-                          <a class="com-rposition" href="">
-                             <img src="images/img-2.jpg" alt="" title="" />
-                             <span class="home-main-products-span">了解我们</span>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-xs-4">
-                        <div class="thumbnail">
-                          <div class="caption home-main-font">
-                            <h4 class="crred">胶体深循环NG系列</h4>
+                    <div class=" col-xs-9 home-apply-solution ">
+                       <h3 class="home-main-h3">格能出众电池系列</h3>
+                       <div class="blog">
+                        <ul>
+                            <li>
+                               <h4 class="crred">AGM高功率NH系列</h4>
+                                <small>
+                                    应用于： <b>不间断电源设备</b>
+                                </small>
+                                <p>NH系列采用了铅钙合金板栅，配合高倍率和膏配方及工艺。该系列高功率放电性能优异，能持续稳定大功率放电15分钟，非常适合各种应急电源UPS、EPS等场合。</p> 
+                                <a class="com-rposition" href="">
+                                 <img src="images/img-2.jpg" alt="" title="" />
+                                 <span class="home-main-products-span">了解我们</span>
+                                </a>
+                            </li>
+                             <li>
+                                <h4 class="crred">动力深循环EV系列</h4>
+                                <small>
+                                    应用于：
+                                    <b>高尔夫球车，清扫车等</b>
+                                </small>
+                                <p>EV系列采用了高锡低钙板栅合金，配合动力和膏配方及工艺性能优异，其深循环性能比普通产品高70% 以上。非常适合各种深度循环使用的场合...</p>
+                                <a class="com-rposition" href="">
+                                 <img src="images/img-2.jpg" alt="" title="" />
+                                 <span class="home-main-products-span">了解我们</span>
+                                </a>
+                            </li>
+                             <li>
+                               <h4 class="crred">胶体深循环NG系列</h4>
                             <small>
                                 应用于：
                                 <b>光伏储能系统</b>
                             </small>
                             <p>NG系列采用了新型深放电铅钙合金板栅，配合长寿命活性物质配方及纳米胶体技术，特别适合太阳能及风电储能配套蓄电池。电池的耐过放电性能极佳...</p>
-                          </div>
-                          <a class="com-rposition" href="">
+                            <a class="com-rposition" href="">
                              <img src="images/img-2.jpg" alt="" title="" />
                              <span class="home-main-products-span">了解我们</span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
+                            </a>
+                            </li>
+                       </ul>
+                       </div>
+                       
                     </div>
                     <!-- right -->
-                    <div class="col-xs-3">
+                    <div class="col-xs-3 pl0">
                         <h3 class="home-main-h3">公司动态</h3>
                         <div class="row">
                                <div class="col-xs-12">
@@ -606,8 +597,11 @@
                </div>
             </div>
             <!-- footer end -->
+            <a href="#" id="toTop">&uarr;</a>
         <!-- wrapper -->
         <script type="text/javascript" src="js/custom.js"></script>
+
+
     </body>
 
 </html>
